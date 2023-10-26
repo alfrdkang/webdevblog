@@ -1,0 +1,43 @@
+html * {
+    font-family: 'Courier New';
+}
+
+img {
+    height: auto;
+    max-width: 95%;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+.navBar {
+    background-color: #616161;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navItem {
+    float: left;
+}
+
+.navItem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.codeExample {
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+  }
