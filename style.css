@@ -6,20 +6,30 @@ img {
     height: auto;
     max-width: 95%;
     padding-top: 40px;
-    padding-bottom: 40px
+    padding-bottom: 40px;
 }
 
 .navBar {
     background-color: #616161;
-    color: white;
+    color: #F7F7F7;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position: fixed;
+    border-radius: 15px;
 }
 
 .navItem {
     float: left;
+}
+
+.navTheme {
+    float: right;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    padding: 7px 7px;
+    margin: 4px 2px;
 }
 
 .navItem a {
@@ -40,4 +50,11 @@ img {
 body {
     max-width: 800px;
     margin: auto;
+    background-color: #F7F7F7;
+    color: #393E46
   }
+
+.dark-mode {
+  background-color: #393E46;
+  color: #F7F7F7;
+}
