@@ -50,11 +50,11 @@ img {
 body {
     max-width: 800px;
     margin: auto;
-    background-color: #F7F7F7;
-    color: #393E46
+    background-color: #393E46;
+    color: #F7F7F7
   }
 
-.dark-mode {
-  background-color: #393E46;
-  color: #F7F7F7;
+.light-mode {
+  background-color: #F7F7F7;
+  color: #393E46;
 }
