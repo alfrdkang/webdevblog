@@ -8,11 +8,13 @@ img {
 }
 
 .navBar {
+    display: flex;
+    align-items: center;
     background-color: #616161;
     color: #F7F7F7;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0px 20px 0px;
     overflow: hidden;
     position: fixed;
     border-radius: 15px;
@@ -27,7 +29,7 @@ img {
     background-color: rgba(0,0,0,0);
     border: none;
     padding: 7px 7px;
-    margin: 4px 2px;
+    margin: 0px 10px 0px;
 }
 
 .navItem a {
